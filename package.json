@@ -11,6 +11,9 @@
     "textinput",
     "secure"
   ],
+  "peerDependencies": {
+    "react-native": ">=v0.57.0"
+  },
   "author": "Charlie Varley",
   "license": "MIT",
   "bugs": {
