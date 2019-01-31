@@ -1,0 +1,20 @@
+{
+  "name": "react-native-secure-textinput",
+  "version": "1.0.0",
+  "description": "Secure TextInput for React Native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvarley100/react-native-secure-textinput.git"
+  },
+  "keywords": [
+    "react-native",
+    "textinput",
+    "secure"
+  ],
+  "author": "Charlie Varley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvarley100/react-native-secure-textinput/issues"
+  },
+  "homepage": "https://github.com/cvarley100/react-native-secure-textinput#readme"
+}
