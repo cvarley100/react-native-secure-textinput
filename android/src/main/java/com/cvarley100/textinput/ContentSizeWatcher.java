@@ -5,7 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.facebook.react.views.textinput;
+package com.cvarley100.textinput;
+
 
 public interface ContentSizeWatcher {
   public void onLayout();

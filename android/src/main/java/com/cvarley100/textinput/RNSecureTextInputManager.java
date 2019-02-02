@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.facebook.react.views.textinput;
+package com.cvarley100.textinput;
 
 import android.graphics.PorterDuff;
 import android.graphics.Typeface;
@@ -57,8 +57,8 @@ import javax.annotation.Nullable;
 /**
  * Manages instances of TextInput.
  */
-@ReactModule(name = ReactTextInputManager.REACT_CLASS)
-public class ReactTextInputManager extends BaseViewManager<ReactEditText, LayoutShadowNode> {
+@ReactModule(name = RNSecureTextInputManager.REACT_CLASS)
+public class RNSecureTextInputManager extends BaseViewManager<ReactEditText, LayoutShadowNode> {
 
   protected static final String REACT_CLASS = "SecureAndroidTextInput";
 
