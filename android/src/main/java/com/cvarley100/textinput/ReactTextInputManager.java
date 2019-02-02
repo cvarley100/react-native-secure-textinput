@@ -60,7 +60,7 @@ import javax.annotation.Nullable;
 @ReactModule(name = ReactTextInputManager.REACT_CLASS)
 public class ReactTextInputManager extends BaseViewManager<ReactEditText, LayoutShadowNode> {
 
-  protected static final String REACT_CLASS = "AndroidTextInput";
+  protected static final String REACT_CLASS = "SecureAndroidTextInput";
 
   private static final int[] SPACING_TYPES = {
       Spacing.ALL, Spacing.LEFT, Spacing.RIGHT, Spacing.TOP, Spacing.BOTTOM,

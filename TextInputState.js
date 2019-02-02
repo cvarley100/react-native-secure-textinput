@@ -15,8 +15,9 @@
 
 'use strict';
 
-const Platform = require('Platform');
-const UIManager = require('UIManager');
+import { Platform } from 'react-native';
+
+const UIManager = require('react-native/Libraries/ReactNative/UIManager');
 
 let currentlyFocusedID: ?number = null;
 const inputs = new Set();
@@ -42,7 +43,7 @@ function focusTextInput(textFieldID: ?number) {
     } else if (Platform.OS === 'android') {
       UIManager.dispatchViewManagerCommand(
         textFieldID,
-        UIManager.AndroidTextInput.Commands.focusTextInput,
+        UIManager.SecureAndroidTextInput.Commands.focusTextInput,
         null,
       );
     }
@@ -62,7 +63,7 @@ function blurTextInput(textFieldID: ?number) {
     } else if (Platform.OS === 'android') {
       UIManager.dispatchViewManagerCommand(
         textFieldID,
-        UIManager.AndroidTextInput.Commands.blurTextInput,
+        UIManager.SecureAndroidTextInput.Commands.blurTextInput,
         null,
       );
     }
