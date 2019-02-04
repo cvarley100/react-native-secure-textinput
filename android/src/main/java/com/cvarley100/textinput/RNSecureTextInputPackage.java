@@ -13,21 +13,19 @@ import com.cvarley100.textinput.RNSecureTextInputManager;
 
 public class RNSecureTextInputPackage implements ReactPackage {
 
-    public RNSecureTextInputPackage() {}
-    public RNSecureTextInputPackage(Activity activity) {}
-
     @Override
-    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        List<NativeModule> modules = new ArrayList<>();
-        modules.add(new RNSecureTextInputPackage(reactContext));
-        return modules;
+    public List<NativeModule>
+    createNativeModules(ReactApplicationContext reactContext) {
+        return Collections.emptyList();
     }
-
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+        return Collections.emptyList();
+    }
     @Override
-    public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-        return Collections.<ViewManager>singletonList(
+    public List<ViewManager>
+    createViewManagers(ReactApplicationContext reactContext) {
+         return Collections.<ViewManager>singletonList(
             new RNSecureTextInputManager()
         );
     }
-
 }

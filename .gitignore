@@ -1,0 +1,26 @@
+.DS_Store
+
+# Android
+#
+build/
+.idea
+.gradle/
+local.properties
+*.iml
+index.android.bundle
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+
+node_modules_*
+
+# NPM lockfiles
+package-lock.json
+
