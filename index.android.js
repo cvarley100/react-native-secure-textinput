@@ -481,10 +481,10 @@ class TextInput extends Component {
   _renderAndroid() {
     const props = Object.assign({}, this.props);
     props.style = [this.props.style];
-    props.autoCapitalize =
+    /*props.autoCapitalize =
       UIManager.AndroidTextInput.Constants.AutoCapitalizationType[
         props.autoCapitalize || 'sentences'
-      ];
+      ]; */
     /* $FlowFixMe(>=0.53.0 site=react_native_fb,react_native_oss) This comment
      * suppresses an error when upgrading Flow's support for React. To see the
      * error delete this comment and run Flow. */
